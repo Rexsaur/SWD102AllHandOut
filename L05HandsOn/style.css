@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header-container {
+    color: blue;
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    }
+.container {
+    display: flex;
+    justify-content: center;
+  }
+.photos {
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    max-width: 980px;
+    align-items: center;
+  }
+  .photos img {
+    display: flex;
+    background-color: #fff;
+    width: 20%;
+    justify-content: space-around;
+    padding: 10px;
+  }
